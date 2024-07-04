@@ -1,0 +1,481 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: A sample template
+Resources:
+  waterSensor1:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Philadelphia"
+              type: "surface"
+              source: "Delaware_River"
+        ThingName: "waterSensor1"
+  waterSensor2:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Philadelphia"
+              type: "surface"
+              source: "Schuylkill_River"
+        ThingName: "waterSensor2"
+  waterSensor3:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Boston"
+              type: "surface"
+              source: "Quabbin_Reservoir"
+        ThingName: "waterSensor3"
+  waterSensor4:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Boston"
+              type: "surface"
+              source: "Wachusett_Reservoir"
+        ThingName: "waterSensor4"
+  waterSensor5:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "New_York"
+              type: "surface"
+              source: "Croton_Reservoir"
+        ThingName: "waterSensor5"
+  waterSensor6:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "New_York"
+              type: "surface"
+              source: "Catskill_Reservoir"
+        ThingName: "waterSensor6"
+  waterSensor7:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "New_York"
+              type: "surface"
+              source: "Delaware_Reservoir"
+        ThingName: "waterSensor7"
+  waterSensor8:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Pittsburgh"
+              type: "surface"
+              source: "Allegheny_River"
+        ThingName: "waterSensor8"
+  waterSensor9:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "New_Orleans"
+              type: "surface"
+              source: "Mississippi_River"
+        ThingName: "waterSensor9"
+  waterSensor10:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "St._Louis"
+              type: "surface"
+              source: "Mississippi_River"
+        ThingName: "waterSensor10"
+  waterSensor11:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "St._Louis"
+              type: "surface"
+              source: "Mississippi_River"
+        ThingName: "waterSensor11"
+  waterSensor12:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "St._Louis"
+              type: "surface"
+              source: "Missouri_River"
+        ThingName: "waterSensor12"
+  waterSensor13:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Kansas_City"
+              type: "surface"
+              source: "Missouri_River"
+        ThingName: "waterSensor13"
+  waterSensor14:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Kansas_City"
+              type: "surface"
+              source: "Kansas_River"
+        ThingName: "waterSensor14"
+  waterSensor15:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Memphis"
+              type: "ground"
+              source: "Memphis_Aquifer"
+        ThingName: "waterSensor15"
+  waterSensor16:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Memphis"
+              type: "ground"
+              source: "Fort_Pillow_Sand_Aquifer"
+        ThingName: "waterSensor16"
+  waterSensor17:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Little_Rock"
+              type: "surface"
+              source: "Lake_Maumelle"
+        ThingName: "waterSensor17"
+  waterSensor18:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Little_Rock"
+              type: "surface"
+              source: "Lake_Winona"
+        ThingName: "waterSensor18"
+  waterSensor19:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Miami"
+              type: "ground"
+              source: "Biscayne_Aquifer"
+        ThingName: "waterSensor19"
+  waterSensor20:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Philadelphia"
+              type: "surface"
+              source: "Delaware_River"
+        ThingName: "waterSensor20"
+  waterSensor21:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Philadelphia"
+              type: "surface"
+              source: "Delaware_River"
+        ThingName: "waterSensor21"
+  waterSensor22:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Philadelphia"
+              type: "surface"
+              source: "Schuylkill_River"
+        ThingName: "waterSensor22"
+  waterSensor23:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Boston"
+              type: "surface"
+              source: "Quabbin_Reservoir"
+        ThingName: "waterSensor23"
+  waterSensor24:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Boston"
+              type: "surface"
+              source: "Wachusett_Reservoir"
+        ThingName: "waterSensor24"
+  waterSensor25:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "New_York"
+              type: "surface"
+              source: "Croton_Reservoir"
+        ThingName: "waterSensor25"
+  waterSensor26:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "New_York"
+              type: "surface"
+              source: "Catskill_Reservoir"
+        ThingName: "waterSensor26"
+  waterSensor27:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "New_York"
+              type: "surface"
+              source: "Delaware_Reservoir"
+        ThingName: "waterSensor27"
+  waterSensor28:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Pittsburgh"
+              type: "surface"
+              source: "Allegheny_River"
+        ThingName: "waterSensor28"
+  waterSensor29:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "New_Orleans"
+              type: "surface"
+              source: "Mississippi_River"
+        ThingName: "waterSensor29"
+  waterSensor30:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "St._Louis"
+              type: "surface"
+              source: "Mississippi_River"
+        ThingName: "waterSensor30"
+  waterSensor31:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "St._Louis"
+              type: "surface"
+              source: "Mississippi_River"
+        ThingName: "waterSensor31"
+  waterSensor32:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "St._Louis"
+              type: "surface"
+              source: "Missouri_River"
+        ThingName: "waterSensor32"
+  waterSensor33:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Kansas_City"
+              type: "surface"
+              source: "Missouri_River"
+        ThingName: "waterSensor33"
+  waterSensor34:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Kansas_City"
+              type: "surface"
+              source: "Kansas_River"
+        ThingName: "waterSensor34"
+  waterSensor35:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Memphis"
+              type: "ground"
+              source: "Memphis_Aquifer"
+        ThingName: "waterSensor35"
+  waterSensor36:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Memphis"
+              type: "ground"
+              source: "Fort_Pillow_Sand_Aquifer"
+        ThingName: "waterSensor36"
+  waterSensor37:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Little_Rock"
+              type: "surface"
+              source: "Lake_Maumelle"
+        ThingName: "waterSensor37"
+  waterSensor38:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Little_Rock"
+              type: "surface"
+              source: "Lake_Winona"
+        ThingName: "waterSensor38"
+  waterSensor39:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Miami"
+              type: "ground"
+              source: "Biscayne_Aquifer"
+        ThingName: "waterSensor39"
+  waterSensor40:
+    Type: AWS::IoT::Thing
+    Properties: 
+        AttributePayload: 
+           Attributes: 
+              city: "Memphis"
+              type: "ground"
+              source: "Fort_Pillow_Sand_Aquifer"
+        ThingName: "waterSensor40"
+
+  LambdaUpdateShadows:
+    Type: AWS::Lambda::Function
+    DependsOn: 
+      - waterSensor1
+      - waterSensor2
+      - waterSensor3
+      - waterSensor4
+      - waterSensor5
+      - waterSensor6
+      - waterSensor7
+      - waterSensor8
+      - waterSensor9
+      - waterSensor10
+      - waterSensor11
+      - waterSensor12
+      - waterSensor13
+      - waterSensor14
+      - waterSensor15
+      - waterSensor16
+      - waterSensor17
+      - waterSensor18
+      - waterSensor19
+      - waterSensor20
+      - waterSensor21
+      - waterSensor22
+      - waterSensor23
+      - waterSensor24
+      - waterSensor25
+      - waterSensor26
+      - waterSensor27
+      - waterSensor28
+      - waterSensor29
+      - waterSensor30
+      - waterSensor31
+      - waterSensor32
+      - waterSensor33
+      - waterSensor34
+      - waterSensor35
+      - waterSensor36
+      - waterSensor37
+      - waterSensor38
+      - waterSensor39
+      - waterSensor40
+    Properties:
+      FunctionName: LambdaUpdateShadows
+      Code:
+        ZipFile: |
+
+          import json
+
+          def lambda_handler(event, context):
+              import boto3
+              import cfnresponse
+              print(event)
+              print(context)
+              iot_client = boto3.client('iot-data')
+              if(event['RequestType'] == 'Delete'):
+                for i in range(0,40):
+                    thing_name = "waterSensor"+str(i+1)
+                    iot_client.delete_thing_shadow(thingName=thing_name)
+              else:
+                #update the thing shadow of each of the waterSensors to include the waterpH they are using
+                waterpH = [7.3, 7.2, 7.9, 6.8, 7.2, 7.4, 6.5, 8.1, 7.6, 6.9, 8.4, 7.4, 8.5, 7.7, 6.2, 8.7, 8.0, 8.2, 6.9, 6.9, 8.5, 8.5, 7.1, 6.8, 7.9, 7.4, 6.5, 6.9, 6.6, 6.5, 7.6, 7.4, 8.4, 7.0, 6.4, 7.0, 8.4, 6.6, 7.1, 7.2]
+                for i in range(0,40):
+                    thing_name = "waterSensor"+str(i+1)
+                    update_state = {'state': {'desired': {'waterpH': waterpH[i]}}}
+                    iot_client.update_thing_shadow(thingName=thing_name, payload=json.dumps(update_state))
+              cfnresponse.send(event, context, cfnresponse.SUCCESS, {});
+
+      Handler: index.lambda_handler
+      Role: !GetAtt LambdaExecutionRole.Arn
+      Runtime: python3.7
+      Timeout: 60
+
+  LambdaExecutionRole: 
+    Type: AWS::IAM::Role
+    Properties:
+        AssumeRolePolicyDocument: 
+            Version: 2012-10-17
+            Statement:
+                - Effect: Allow
+                  Principal:
+                      Service: 
+                        - lambda.amazonaws.com
+                  Action: 
+                      - sts:AssumeRole
+
+  LambdaExecutionRolePolicy:
+    Type: AWS::IAM::Policy
+    Properties: 
+        PolicyName: IoTShadowLambda_Policy
+        PolicyDocument:
+            Version: 2012-10-17
+            Statement: 
+                - Effect: Allow
+                  Action: 
+                    - iot:UpdateThingShadow
+                    - iot:DeleteThingShadow
+                    - logs:CreateLogStream
+                    - logs:PutLogEvents
+                    - logs:CreateLogGroup
+                  Resource: "*"
+        Roles: 
+            - Ref: "LambdaExecutionRole"
+
+  Primerinvoke:
+    Type: AWS::CloudFormation::CustomResource
+    DependsOn: LambdaUpdateShadows   
+    #Note: Your custom resource isn't a physical resource, so you don't have to clean up your custom resource after stack deletion.
+    DeletionPolicy: Retain
+    Version: "1.0"
+    Properties:
+      ServiceToken: !GetAtt LambdaUpdateShadows.Arn
+      FunctionName: !Ref LambdaUpdateShadows
+
+
+
